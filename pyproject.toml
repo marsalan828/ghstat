@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ghstat"
+version = "2026.0.0"
+requires-python = ">= 3.12"
+dependencies = [
+
+]
+
+[project.scripts]
+ghstat = "ghstat.cli:main"
