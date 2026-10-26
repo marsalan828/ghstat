@@ -1,3 +1,5 @@
 .venv
 src/ghstat.egg-info
 src/ghstat/__pycache__
+scratch*
+phases.md
